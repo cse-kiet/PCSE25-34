@@ -1,15 +1,38 @@
-# Title of Project: [PROJECT_TITLE_HERE]
+# Title of Project: Leveraging Machine Learning for COVID-19 Diagnosis
 
 ## Team Members:
-1. [TEAM_MEMBER_1_NAME]
-2. [TEAM_MEMBER_2_NAME]
-3. [TEAM_MEMBER_3_NAME]
-4. [TEAM_MEMBER_4_NAME]
+1. Mansi
+2. Nandini Vashistha
 
 ## Steps for Execution:
-1. [STEP 1]
-2. [STEP 2]
-   (Add more steps as needed)
+
+1. Data Preprocessing
+    Load the X-ray image dataset.
+    Resize images to a fixed size.
+    Normalize pixel values.
+    Encode labels (COVID-19, NonCOVID-19).
+
+2. Feature Extraction using PCA
+    Flatten image data if needed.
+    Apply various methods to reduce dimensionality.
+   
+3. Model Building using ResNet
+    Build a Residual Network (ResNet) architecture using Keras/TensorFlow.
+
+4. Training
+    Compile the model with loss.
+    Train using model.fit() with proper epochs and batch size.
+
+5. Evaluation
+    Evaluate on test set using accuracy, precision, recall, F1-score.
+    Plot confusion matrix and ROC curve.
+
+6. Results
+    Final model accuracy: 95%
+    Model successfully distinguishes COVID from normal with high precision.
+
+
+
 
 ## Checklist:
 1. Final Project Report
